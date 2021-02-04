@@ -1,0 +1,18 @@
+{
+  "name": "koa-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development APP_ENTRY=../index.js npx --node-arg=--inspect tsw config=src/config/tsw.config.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tencent/tsw": "^1.0.1897",
+    "koa": "^2.13.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
